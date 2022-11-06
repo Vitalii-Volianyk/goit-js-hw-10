@@ -18,3 +18,26 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.flag{
+  width: 40px;
+  height: auto;
+}
+h1, h2, p, img{
+  display: inline-block;
+  margin: 0;
+}
+.info-list, .country-list{
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+.list-item{
+  display: flex;
+  align-items: center;
+}
+h1,p {
+padding-left: 10px;
+}
+.country-list .list-item{
+  padding: 5px;
+}
